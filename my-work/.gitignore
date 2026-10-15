@@ -1,0 +1,7 @@
+# Model checkpoints: large binary files that should never be committed
+*.pt
+*.pth
+*.safetensors
+
+# Compiled binaries from the hello world exercise
+00-setup-and-tooling/01-dev-environment/hello
