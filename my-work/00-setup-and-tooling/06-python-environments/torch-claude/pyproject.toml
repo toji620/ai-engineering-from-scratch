@@ -1,0 +1,21 @@
+[project]
+name = "torch-claude"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "toji620", email = "180594764+toji620@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=2.3.0",
+    "numpy>=2.5.4",
+    "torch>=2.15.0",
+]
+
+[project.scripts]
+torch-claude = "torch_claude:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"
