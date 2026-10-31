@@ -1,0 +1,9 @@
+machine,device,run,seconds
+M5 Pro Mac,CPU,1,0.177
+M5 Pro Mac,CPU,2,0.153
+M5 Pro Mac,MPS GPU,1,0.216
+M5 Pro Mac,MPS GPU,2,0.055
+Colab,CPU,1,2.147
+Colab,CPU,2,2.034
+Colab,T4 GPU,1,0.190
+Colab,T4 GPU,2,0.088
